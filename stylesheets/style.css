@@ -1,4 +1,20 @@
-.navigation {
+* {
+    margin: 0;
+}
+
+html {
+    background-color: rgb(50, 50, 50);
+    margin: 0px;
+}
+
+nav {
+    background-color: whitesmoke;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icon {
     background: none;
     border: none;
     padding: 15px 32px;
@@ -8,18 +24,103 @@
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    width: 128px;
+    margin: auto;
+}
+
+.icon:link {
+    color:rgb(55, 176, 216);
+}
+
+.icon:visited {
+    color:rgb(55, 176, 216);
+}
+
+.icon:hover {
+    color:rgb(202, 21, 226);
+    transition-duration: 0.4s;
+    background-color: rgb(235, 235, 235);
+}
+
+.navigation {
+    background: none;
+    border: none;
+    padding: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: none;
 }
 
 .navigation:link {
-    color:rgb(0, 191, 255);
+    color:rgb(55, 176, 216);
 }
 
 .navigation:visited {
-    color:rgb(0, 191, 255);
+    color:rgb(55, 176, 216);
 }
 
 .navigation:hover {
     color:rgb(202, 21, 226);
     transition-duration: 0.4s;
+    background-color: rgb(225, 225, 225);
+}
+
+.Rajikaru {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    background: linear-gradient(to right, rgb(202, 21, 226), rgb(0, 191, 255));
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 150px;
+}
+
+.content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.invdiv {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.invite {
+    background: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(114, 137, 218);
+    border-radius: 4px;
+    box-shadow: 0 17px 20px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.invite:link {
+    color:rgb(78, 93, 148);
+}
+
+.invite:visited {
+    color:rgb(78, 93, 148);
+}
+
+.invite:hover {
+    color: whitesmoke;
+    transition-duration: 0.4s;
+    box-shadow: 0 17px 20px 0 rgba(114, 137, 218, 0.2), 0 17px 50px 0 rgba(114, 137, 218, 0.19); 
 }
