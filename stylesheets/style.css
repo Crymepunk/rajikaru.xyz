@@ -1,0 +1,24 @@
+.navigation {
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.navigation:link {
+    color:rgb(0, 191, 255);
+}
+
+.navigation:visited {
+    color:rgb(0, 191, 255);
+}
+
+.navigation:hover {
+    color:rgb(202, 21, 226);
+    transition-duration: 0.4s;
+}
