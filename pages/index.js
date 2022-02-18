@@ -1,22 +1,14 @@
-import Link from 'next/link'
 import homeStyles from '../styles/Home.module.css'
-import navStyles from '../styles/navbar.module.css'
-import Image from 'next/image'
+import Head from 'next/head'
+import Navbar from '../components/navbar.js'
 
 export default function Home() {
   return (
     <>
-      <nav>
-        <Link href="/">
-          <a className={navStyles.icon}>Home</a>
-        </Link>
-        <Link href="/commands">
-          <a className={navStyles.navigation}>Commands</a>
-        </Link>
-        <Link href="https://github.com/Crymepunk/rajikaru-bot">
-          <a className={navStyles.navigation} target="_blank">Github</a>
-        </Link>
-      </nav>
+      <Head>
+        <title>Rajikaru Discord Bot</title>
+      </Head>
+      <Navbar />
       <h1 className={homeStyles.Rajikaru}>Rajikaru</h1>
       <h2 className={homeStyles.content}>A general purpose discord bot</h2>
       <div className={homeStyles.invdiv}>

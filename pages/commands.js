@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import navStyles from '../styles/navbar.module.css'
+import Script from 'next/script'
+import menuStyles from '../styles/menu.module.css'
+import Navbar from '../components/navbar.js'
 
 export default function commands() {
   return (
@@ -8,17 +9,23 @@ export default function commands() {
       <Head>
         <title>Rajikaru Bot Commands</title>
       </Head>
-      <nav>
-        <Link href="/">
-          <a className={navStyles.icon}>Home</a>
-        </Link>
-        <Link href="/commands">
-          <a className={navStyles.navigation}>Commands</a>
-        </Link>
-        <Link href="https://github.com/Crymepunk/rajikaru-bot">
-          <a className={navStyles.navigation} target="_blank">Github</a>
-        </Link>
-      </nav>
+      <Navbar />
+      <aside className={menuStyles.commandsMenu}>
+        <ul>
+          <li className={menuStyles.list}>
+            <a className={menuStyles.utility} href="#Utility">Utility</a>
+          </li>
+          <li className={menuStyles.list}>
+            <a className={menuStyles.manager} href="#Manager">Manager</a>
+          </li>
+          <li className={menuStyles.list}>
+            <a className={menuStyles.moderation} href="#Moderation">Moderation</a>
+          </li>
+          <li className={menuStyles.list}>
+            <a className={menuStyles.fun} href="#Fun">Fun</a>
+          </li>
+        </ul>
+      </aside>
     </>
   )
 }
