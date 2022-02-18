@@ -11,7 +11,7 @@ export default function navbar(){
           <a className={navStyles.navigation}>Commands</a>
         </Link>
         <Link href="https://github.com/Crymepunk/rajikaru-bot">
-          <a className={navStyles.navigation} target="_blank">Github</a>
+          <a className={navStyles.navigation} target="_blank">GitHub</a>
         </Link>
       </nav>
   )
