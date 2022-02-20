@@ -4,24 +4,24 @@ import Navbar from '../components/navbar.js'
 
 export default function commands() {
   function utilitymenu() {
-    document.getElementById('commandsList1').classList.remove('invisible');
     document.getElementById('commandsList2').classList.add('invisible');
     document.getElementById('commandsList3').classList.add('invisible');
     document.getElementById('commandsList4').classList.add('invisible');
+    document.getElementById('commandsList1').classList.remove('invisible');
   };
 
   function managermenu() {
     document.getElementById('commandsList1').classList.add('invisible');
-    document.getElementById('commandsList2').classList.remove('invisible');
     document.getElementById('commandsList3').classList.add('invisible');
     document.getElementById('commandsList4').classList.add('invisible');
+    document.getElementById('commandsList2').classList.remove('invisible');
   };
 
   function moderationmenu() {
     document.getElementById('commandsList1').classList.add('invisible');
     document.getElementById('commandsList2').classList.add('invisible');
-    document.getElementById('commandsList3').classList.remove('invisible');
     document.getElementById('commandsList4').classList.add('invisible');
+    document.getElementById('commandsList3').classList.remove('invisible');
   };
 
   function funmenu() {
@@ -39,7 +39,6 @@ export default function commands() {
       <style>
         {`.invisible {
           transition-duration: 0.4s !important;
-          opacity: 0%;
           display: none;
         }`}
       </style>
@@ -69,19 +68,33 @@ export default function commands() {
               <li className={menuStyles.commands}>ping</li>
             </ul>
           </div>
-        <div id="commandsList2">
+        <div id="commandsList2" className={invisible}>
           <ul>
-
+            <li className={menuStyles.commands}>settings</li>
+            <li className={menuStyles.commands}>role</li>
           </ul>
         </div>
-        <div id="commandsList3">
+        <div id="commandsList3" className={invisible}>
           <ul>
-
+            <li className={menuStyles.commands}>ban</li>
+            <li className={menuStyles.commands}>unban</li>
+            <li className={menuStyles.commands}>kick</li>
+            <li className={menuStyles.commands}>warn</li>
+            <li className={menuStyles.commands}>infractions</li>
+            <li className={menuStyles.commands}>purge</li>
+            <li className={menuStyles.commands}>say</li>
           </ul>
         </div>
-        <div id="commandsList4">
+        <div id="commandsList4" className={invisible}>
           <ul>
-
+            <li className={menuStyles.commands}>cuddle</li>
+            <li className={menuStyles.commands}>hug</li>
+            <li className={menuStyles.commands}>pat</li>
+            <li className={menuStyles.commands}>slap</li>
+            <li className={menuStyles.commands}>coinflip</li>
+            <li className={menuStyles.commands}>neko</li>
+            <li className={menuStyles.commands}>owoify</li>
+            <li className={menuStyles.commands}>gayrate</li>
           </ul>
         </div>
       </div>
