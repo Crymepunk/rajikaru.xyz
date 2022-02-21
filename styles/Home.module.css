@@ -49,7 +49,7 @@
 }
 
 .invite:hover {
-    color: whitesmoke;
+    color: rgb(217, 216, 218);
     transition-duration: 0.4s;
     box-shadow: 0 17px 20px 0 rgba(114, 137, 218, 0.2), 0 17px 50px 0 rgba(114, 137, 218, 0.19); 
 }

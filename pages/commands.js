@@ -46,35 +46,35 @@ export default function commands() {
       <aside id="utility" className={menuStyles.commandsMenu}>
         <ul>
           <li className={menuStyles.list}>
-            <a className={menuStyles.utility} href="#Utility" onClick={() => utilitymenu()}>Utility</a>
+            <a className={menuStyles.tabbuttons} href="#Utility" onClick={() => utilitymenu()}>Utility</a>
           </li>
           <li className={menuStyles.list}>
-            <a className={menuStyles.manager} href="#Manager" onClick={() => managermenu()}>Manager</a>
+            <a className={menuStyles.tabbuttons} href="#Manager" onClick={() => managermenu()}>Manager</a>
           </li>
           <li className={menuStyles.list}>
-            <a className={menuStyles.moderation} href="#Moderation" onClick={() => moderationmenu()}>Moderation</a>
+            <a className={menuStyles.tabbuttons} href="#Moderation" onClick={() => moderationmenu()}>Moderation</a>
           </li>
           <li className={menuStyles.list}>
-            <a className={menuStyles.fun} href="#Fun" onClick={() => funmenu()}>Fun</a>
+            <a className={menuStyles.tabbuttons} href="#Fun" onClick={() => funmenu()}>Fun</a>
           </li>
         </ul>
       </aside>
       <div className={menuStyles.commandsList}>
+      <div className={menuStyles.header}>Commands</div>
         <div id="commandsList1">
-          <div>Commands</div>
             <ul>
-              <li className={menuStyles.commands}>avatar</li>
+              <li className={menuStyles.commandstop}>avatar</li>
               <li className={menuStyles.commands}>nick</li>
               <li className={menuStyles.commands}>ping</li>
             </ul>
           </div>
-        <div id="commandsList2" className={invisible}>
+        <div id="commandsList2" className="invisible">
           <ul>
             <li className={menuStyles.commands}>settings</li>
             <li className={menuStyles.commands}>role</li>
           </ul>
         </div>
-        <div id="commandsList3" className={invisible}>
+        <div id="commandsList3" className="invisible">
           <ul>
             <li className={menuStyles.commands}>ban</li>
             <li className={menuStyles.commands}>unban</li>
@@ -85,7 +85,7 @@ export default function commands() {
             <li className={menuStyles.commands}>say</li>
           </ul>
         </div>
-        <div id="commandsList4" className={invisible}>
+        <div id="commandsList4" className="invisible">
           <ul>
             <li className={menuStyles.commands}>cuddle</li>
             <li className={menuStyles.commands}>hug</li>
