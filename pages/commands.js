@@ -63,20 +63,23 @@ export default function commands() {
       <div className={menuStyles.header}>Commands</div>
         <div id="commandsList1">
             <ul>
-              <li className={menuStyles.commandstop}>avatar</li>
+              <li className={menuStyles.commandsTop}>avatar</li>
               <li className={menuStyles.commands}>nick</li>
               <li className={menuStyles.commands}>ping</li>
             </ul>
+            <div>
+              <p className={menuStyles.commandsDesc}>Replies with the user's avatar.</p>
+            </div>
           </div>
         <div id="commandsList2" className="invisible">
           <ul>
-            <li className={menuStyles.commands}>settings</li>
+            <li className={menuStyles.commandsTop}>settings</li>
             <li className={menuStyles.commands}>role</li>
           </ul>
         </div>
         <div id="commandsList3" className="invisible">
           <ul>
-            <li className={menuStyles.commands}>ban</li>
+            <li className={menuStyles.commandsTop}>ban</li>
             <li className={menuStyles.commands}>unban</li>
             <li className={menuStyles.commands}>kick</li>
             <li className={menuStyles.commands}>warn</li>
@@ -87,7 +90,7 @@ export default function commands() {
         </div>
         <div id="commandsList4" className="invisible">
           <ul>
-            <li className={menuStyles.commands}>cuddle</li>
+            <li className={menuStyles.commandsTop}>cuddle</li>
             <li className={menuStyles.commands}>hug</li>
             <li className={menuStyles.commands}>pat</li>
             <li className={menuStyles.commands}>slap</li>
@@ -96,6 +99,9 @@ export default function commands() {
             <li className={menuStyles.commands}>owoify</li>
             <li className={menuStyles.commands}>gayrate</li>
           </ul>
+          <div>
+            <p className={menuStyles.commandsDesc}>Cuddles the pinged member.</p>
+          </div>
         </div>
       </div>
     </>
