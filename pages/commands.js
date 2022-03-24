@@ -78,19 +78,19 @@ export default function commands() {
           </ul>
         </div>
         <div id="commandsList3" className="invisible">
-          <ul>
-            <li className={menuStyles.commandsTop}>ban</li>
-            <li className={menuStyles.commands}>unban</li>
-            <li className={menuStyles.commands}>kick</li>
-            <li className={menuStyles.commands}>warn</li>
-            <li className={menuStyles.commands}>infractions</li>
-            <li className={menuStyles.commands}>purge</li>
-            <li className={menuStyles.commands}>say</li>
-          </ul>
+            <p className={menuStyles.commandsTop}>ban</p>
+            <p>balls</p>
+            <div className={menuStyles.commands}>unban</div>
+            <div className={menuStyles.commands}>kick</div>
+            <div className={menuStyles.commands}>warn</div>
+            <div className={menuStyles.commands}>infractions</div>
+            <div className={menuStyles.commands}>purge</div>
+            <div className={menuStyles.commands}>say</div>
         </div>
         <div id="commandsList4" className="invisible">
           <ul>
             <li className={menuStyles.commandsTop}>cuddle</li>
+            
             <li className={menuStyles.commands}>hug</li>
             <li className={menuStyles.commands}>pat</li>
             <li className={menuStyles.commands}>slap</li>
@@ -99,9 +99,6 @@ export default function commands() {
             <li className={menuStyles.commands}>owoify</li>
             <li className={menuStyles.commands}>gayrate</li>
           </ul>
-          <div>
-            <p className={menuStyles.commandsDesc}>Cuddles the pinged member.</p>
-          </div>
         </div>
       </div>
     </>
