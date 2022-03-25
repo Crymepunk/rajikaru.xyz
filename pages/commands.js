@@ -68,7 +68,7 @@ export default function commands() {
               <li className={menuStyles.commands}>ping</li>
             </ul>
             <div>
-              <p className={menuStyles.commandsDesc}>Replies with the user's avatar.</p>
+              <p className={menuStyles.commandsDesc}>Replies with the user&apos;s avatar.</p>
             </div>
           </div>
         <div id="commandsList2" className="invisible">
