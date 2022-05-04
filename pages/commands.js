@@ -43,64 +43,77 @@ export default function commands() {
         }`}
       </style>
       <Navbar />
-      <aside id="utility" className={menuStyles.commandsMenu}>
-        <ul>
-          <li className={menuStyles.list}>
-            <a className={menuStyles.tabbuttons} href="#Utility" onClick={() => utilitymenu()}>Utility</a>
-          </li>
-          <li className={menuStyles.list}>
-            <a className={menuStyles.tabbuttons} href="#Manager" onClick={() => managermenu()}>Manager</a>
-          </li>
-          <li className={menuStyles.list}>
-            <a className={menuStyles.tabbuttons} href="#Moderation" onClick={() => moderationmenu()}>Moderation</a>
-          </li>
-          <li className={menuStyles.list}>
-            <a className={menuStyles.tabbuttons} href="#Fun" onClick={() => funmenu()}>Fun</a>
-          </li>
-        </ul>
-      </aside>
-      <div className={menuStyles.commandsList}>
-      <div className={menuStyles.header}>Commands</div>
-        <div id="commandsList1">
-            <ul>
-              <li className={menuStyles.commandsTop}>avatar</li>
-              <li className={menuStyles.commands}>nick</li>
-              <li className={menuStyles.commands}>ping</li>
-            </ul>
+       <div id="utility" className={menuStyles.commandsMenu}>
+          <div>
+            <div className={menuStyles.list}>
+                <a className={menuStyles.tabbuttons} href="#Utility" onClick={() => utilitymenu()}>Utility</a>
+            </div>
+            <div className={menuStyles.list}>
+                <a className={menuStyles.tabbuttons} href="#Manager" onClick={() => managermenu()}>Manager</a>
+              </div>
+              <div className={menuStyles.list}>
+                <a className={menuStyles.tabbuttons} href="#Moderation" onClick={() => moderationmenu()}>Moderation</a>
+            </div>
+            <div className={menuStyles.list}>
+                <a className={menuStyles.tabbuttons} href="#Fun" onClick={() => funmenu()}>Fun</a>
+            </div>
+            </div>
+       </div>
+        <div className={menuStyles.commandsList}>
+        <div className={menuStyles.header}>Commands</div>
+          <div id="commandsList1">
+              <div>
+                <div className={menuStyles.commands}>avatar</div>
+                <div className={menuStyles.commandsDesc}>Replies with the user&apos;s avatar.</div>
+                  <br/>
+                <div className={menuStyles.commands}>nick</div>
+                  <br/>
+                <div className={menuStyles.commands}>ping</div>
+                  <br/>
+              </div>
+            </div>
+          <div id="commandsList2" className="invisible">
             <div>
-              <p className={menuStyles.commandsDesc}>Replies with the user&apos;s avatar.</p>
+              <div className={menuStyles.commands}>settings</div>
+                <br/>
+              <div className={menuStyles.commands}>role</div>
             </div>
           </div>
-        <div id="commandsList2" className="invisible">
-          <ul>
-            <li className={menuStyles.commandsTop}>settings</li>
-            <li className={menuStyles.commands}>role</li>
-          </ul>
+          <div id="commandsList3" className="invisible">
+              <div className={menuStyles.commands}>ban</div>
+                <br/>
+              <div className={menuStyles.commands}>unban</div>
+                <br/>
+              <div className={menuStyles.commands}>kick</div>
+                <br/>
+              <div className={menuStyles.commands}>warn</div>
+                <br/>
+              <div className={menuStyles.commands}>infractions</div>
+                <br/>
+              <div className={menuStyles.commands}>purge</div>
+                <br/>
+              <div className={menuStyles.commands}>say</div>
+          </div>
+          <div id="commandsList4" className="invisible">
+            <div>
+              <div className={menuStyles.commands}>cuddle</div>
+                <br/>
+              <div className={menuStyles.commands}>hug</div>
+                <br/>
+              <div className={menuStyles.commands}>pat</div>
+                <br/>
+              <div className={menuStyles.commands}>slap</div>
+                <br/>
+              <div className={menuStyles.commands}>coinflip</div>
+                <br/>
+              <div className={menuStyles.commands}>neko</div>
+                <br/>
+              <div className={menuStyles.commands}>owoify</div>
+                <br/>
+              <div className={menuStyles.commands}>gayrate</div>
+            </div>
+          </div>
         </div>
-        <div id="commandsList3" className="invisible">
-            <p className={menuStyles.commandsTop}>ban</p>
-            <p>balls</p>
-            <div className={menuStyles.commands}>unban</div>
-            <div className={menuStyles.commands}>kick</div>
-            <div className={menuStyles.commands}>warn</div>
-            <div className={menuStyles.commands}>infractions</div>
-            <div className={menuStyles.commands}>purge</div>
-            <div className={menuStyles.commands}>say</div>
-        </div>
-        <div id="commandsList4" className="invisible">
-          <ul>
-            <li className={menuStyles.commandsTop}>cuddle</li>
-            
-            <li className={menuStyles.commands}>hug</li>
-            <li className={menuStyles.commands}>pat</li>
-            <li className={menuStyles.commands}>slap</li>
-            <li className={menuStyles.commands}>coinflip</li>
-            <li className={menuStyles.commands}>neko</li>
-            <li className={menuStyles.commands}>owoify</li>
-            <li className={menuStyles.commands}>gayrate</li>
-          </ul>
-        </div>
-      </div>
     </>
   )
 }
