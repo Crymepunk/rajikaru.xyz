@@ -1,21 +1,17 @@
-.header {
+.CommandsHeader {
   color: rgb(217, 216, 218);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 1.6vw;
-  margin: 2%
+  margin-top: 2vh;
 }
 
 .commandsMenu {
   background-color: #2c2c49;
-  margin-top: 5%;
   width: 15%;
   margin-left: 20%;
-  padding-top: 0.01%;
-  padding-bottom: 0.01%;
   border-radius: 1vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 0%;
   display: inline-block;
 }
 
@@ -46,6 +42,7 @@
 .commandsList {
   background-color: #2c2c49;
   margin-left: 5vh;
+  margin-top: 3vh;
   padding-left: 3vh;
   padding-bottom: 0.01%;
   border-radius: 1vh;
@@ -57,17 +54,17 @@
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   font-size: 1.2vw;
+  margin-right: 5vh;
+  font-weight: bold;
 }
 
 .commands {
   color: rgb(76, 127, 244);
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: bold;
   display: inline-block;
-  margin-right: 18%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-radius: 5%;
+  margin-right: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
