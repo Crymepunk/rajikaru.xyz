@@ -1,6 +1,6 @@
 .currentPage {
   background-color:rgba(0, 0, 0, 0.2);
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .navigation {
@@ -13,7 +13,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: none;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .navigation:link {

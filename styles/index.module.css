@@ -2,9 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1000%;
     background: linear-gradient(to right, rgb(202, 21, 226), rgb(0, 191, 255));
-    background-clip: text;
     -moz-background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -58,9 +58,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     background: linear-gradient(to right, rgb(202, 21, 226), rgb(0, 191, 255));
-    background-clip: text;
     -moz-background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
     text-align: center;

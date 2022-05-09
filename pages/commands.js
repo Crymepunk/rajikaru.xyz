@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import menuStyles from '../styles/menu.module.css'
-import Navbar from '../components/navbar.js'
 
 export default function commands() {
   function utilitymenu() {
@@ -35,6 +34,7 @@ export default function commands() {
     <>
       <Head>
         <title>Rajikaru Bot Commands</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <style>
         {`.invisible {
@@ -42,7 +42,7 @@ export default function commands() {
           display: none;
         }`}
       </style>
-      <Navbar />
+      <div className={menuStyles.commandsPage}>
        <div className={menuStyles.commandsMenu}>
           <div>
             <div className={menuStyles.list}>
@@ -57,8 +57,8 @@ export default function commands() {
             <div className={menuStyles.list}>
                 <a className={menuStyles.tabbuttons} href="#Fun" onClick={() => funmenu()}>Fun</a>
             </div>
-            </div>
-       </div>
+          </div>
+        </div>
         <div className={menuStyles.commandsList}>
         <div className={menuStyles.CommandsHeader}>Commands</div>
           <div id="commandsList1">
@@ -143,6 +143,7 @@ export default function commands() {
             </div>
           </div>
         </div>
+      </div>
     </>
   )
 }

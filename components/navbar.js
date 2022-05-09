@@ -3,7 +3,7 @@ import navStyles from '../styles/navbar.module.css'
 
 export default function navbar(){
   return (
-<nav>
+      <nav className={navStyles.div}>
         <Link href="/">
           <a className={navStyles.navigation}>Home</a>
         </Link>
