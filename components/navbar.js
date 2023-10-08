@@ -4,15 +4,9 @@ import navStyles from '../styles/navbar.module.css'
 export default function navbar(){
   return (
       <nav className={navStyles.div}>
-        <Link href="/">
-          <a className={navStyles.navigation}>Home</a>
-        </Link>
-        <Link href="/commands">
-          <a className={navStyles.navigation}>Commands</a>
-        </Link>
-        <Link href="https://github.com/Crymepunk/rajikaru-bot">
-          <a className={navStyles.navigation} target="_blank">GitHub</a>
-        </Link>
+        <Link href="/" className={navStyles.navigation}></Link>
+        <Link href="/commands"className={navStyles.navigation}>Commands</Link>
+        <Link href="https://github.com/Crymepunk/rajikaru-bot" className={navStyles.navigation} target="_blank">GitHub</Link>
       </nav>
   )
 }
